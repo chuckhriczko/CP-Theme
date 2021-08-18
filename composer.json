@@ -1,0 +1,21 @@
+{
+    "name": "tdw/theme",
+    "description": "WordPress theme built with composer, namspaces and other PHP 7.4+ features",
+    "type": "wordpress-theme",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Tdw\\Theme\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Chuck Hriczko",
+            "email": "chuckhriczko@gmail.com"
+        }
+    ],
+    "require": {
+        "php":  ">=7.4",
+        "chucksplayground/bulma-css": "dev-main"
+    }
+}
